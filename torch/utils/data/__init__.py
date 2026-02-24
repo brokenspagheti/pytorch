@@ -30,6 +30,7 @@ from torch.utils.data.dataset import (
     TensorDataset,
 )
 from torch.utils.data.distributed import DistributedSampler
+from torch.utils.data.progress_dataloader import ProgressDataLoader
 from torch.utils.data.sampler import (
     BatchSampler,
     RandomSampler,
@@ -52,6 +53,7 @@ __all__ = [
     "IterDataPipe",
     "IterableDataset",
     "MapDataPipe",
+    "ProgressDataLoader",
     "RandomSampler",
     "Sampler",
     "SequentialSampler",
